@@ -89,7 +89,7 @@ model.add(Dropout(0.5))
 model.add(Dense(3, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-print(model.summary())
+#print(model.summary())
 
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2, random_state = 42)
 
