@@ -1,45 +1,22 @@
-#from __future__ import print_function
 import numpy as np
-#np.random.seed(1337)  # for reproducibility
-
-#from keras.preprocessing import sequence
-#from keras.utils import np_utils
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Embedding, SpatialDropout1D
-#from keras.layers import LSTM, SimpleRNN, GRU
 from keras.regularizers import l2
 from keras.constraints import maxnorm
 
-
 from qrnn import QRNN
-#import numpy as np
 import pandas as pd 
 
-
-#import os
-
-
-#import numpy as np
-#import pandas as pd 
-
-
-#import os
-
-
-#from keras.models import Sequential
-#from keras.layers import LSTM,Dense,Dropout,Embedding,BatchNormalization
+from keras.layers import LSTM,Dense,Dropout,Embedding,BatchNormalization
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-#import seaborn as sns
 import re
-#import nltk
 from nltk.corpus import stopwords
 import string
 
 from sklearn.model_selection import train_test_split
-#from nltk.tokenize import TreebankWordTokenizer
 from sklearn.feature_extraction.text import CountVectorizer
 from keras.utils import to_categorical
 
