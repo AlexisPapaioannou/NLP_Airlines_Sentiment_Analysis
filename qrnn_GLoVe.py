@@ -102,7 +102,7 @@ for word, i in tqdm(word_index.items()):
 
 embed_dim = 128
 
-print('Build model...')
+#print('Build model...')
 model = Sequential()
 model.add(Embedding( len(word_index) + 1, 50, weights=[embedding_matrix], input_length = embed_dim))
 #model.add(SpatialDropout1D(0.2))
