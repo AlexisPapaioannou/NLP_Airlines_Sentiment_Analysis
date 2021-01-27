@@ -110,7 +110,7 @@ model.add(LSTM(100,dropout=0.3))
 model.add(Dense(3, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-print(model.summary())
+#print(model.summary())
 
 
 history = model.fit(xtrain_pad, y_train,
