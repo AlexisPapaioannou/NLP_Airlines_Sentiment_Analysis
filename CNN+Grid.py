@@ -1,4 +1,4 @@
-# Airlines sentiment
+# NLP Airlines sentiment
 # Konstantinos Serderidis AEM 46
 # ======================================================================================================================
 # Credits:https://colab.research.google.com/drive/1q2RvpX5No5NQ5P-J4INtF6Z7hAx7R_Fw
@@ -205,8 +205,8 @@ kernel_size = grid_result.best_params_['kernel_size']
 
 model = build_model(num_filters, kernel_size, vocab_size, embedding_dim, max_length)
 
-#history = model.fit(padded_train, y_train, epochs=epochs, validation_split=0.2, verbose=1) 
-history = model.fit(padded_train, y_train,epochs=epochs,verbose=1,validation_data=(padded_test, y_test))
+history = model.fit(padded_train, y_train, epochs=epochs, validation_split=0.2, verbose=1) 
+#history = model.fit(padded_train, y_train,epochs=epochs,verbose=1,validation_data=(padded_test, y_test))
    
 # Plots metrics variation over epochs 
 metric_evaluation(history, 'accuracy', epochs)
