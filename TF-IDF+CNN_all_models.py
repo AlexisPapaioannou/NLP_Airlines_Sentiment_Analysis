@@ -1,5 +1,5 @@
 # NLP Airlines sentiment analysis
-# Kontantinos Serderidis  AEM 46
+# Kontantinos Serderidis AEM 46
 # ======================================================================================================================
 # installations, if not already there
 #!pip install tensorflow
