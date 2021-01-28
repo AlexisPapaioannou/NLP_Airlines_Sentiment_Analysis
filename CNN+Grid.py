@@ -1,5 +1,5 @@
 # Airlines sentiment
-# Konstantinos Serderidis
+# Konstantinos Serderidis AEM 46
 # ======================================================================================================================
 # Credits:https://colab.research.google.com/drive/1q2RvpX5No5NQ5P-J4INtF6Z7hAx7R_Fw
 
