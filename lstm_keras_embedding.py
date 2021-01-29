@@ -1,3 +1,7 @@
+# NLP Airlines sentiment
+# Papaioannou Alexios AEM 44
+# ======================================================================================================================
+
 import numpy as np
 import pandas as pd 
 
