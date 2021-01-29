@@ -1,3 +1,7 @@
+# NLP Airlines sentiment
+# Papaioannou Alexios AEM 44
+# ======================================================================================================================
+
 import pandas as pd 
 import re
 from nltk.corpus import stopwords
